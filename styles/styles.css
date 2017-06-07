@@ -1,26 +1,3 @@
-/* 
-
-For notifications: 
-   add a background
-   make a darker background for hover
-
-For blocks:
-   change the contrast (lighter) on it normally if this is possible
-   revert to original image on hover
-
-For all links:
-   try and remove the underline so it only shows on hover
-
-For user:
-   round the image so its a full circle
-
-
-TODO:
-  All logo and search bar stuff
-  Fix header so everything is evenly spaced and in one line
-
-*/
-
 a, p {
 	font-size: 14px;
 	font-family: Roboto, arial, sans-serif;
