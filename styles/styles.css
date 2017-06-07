@@ -1,0 +1,229 @@
+/* 
+
+For notifications: 
+   add a background
+   make a darker background for hover
+
+For blocks:
+   change the contrast (lighter) on it normally if this is possible
+   revert to original image on hover
+
+For all links:
+   try and remove the underline so it only shows on hover
+
+For user:
+   round the image so its a full circle
+
+
+TODO:
+  All logo and search bar stuff
+  Fix header so everything is evenly spaced and in one line
+
+*/
+
+a, p {
+	font-size: 14px;
+	font-family: Roboto, arial, sans-serif;
+	color: #000;
+	text-decoration: none;
+	opacity: .75;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	display: block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#gmail {
+	display: inline;
+	margin-right: 14px;
+}
+
+#images {
+	display: inline;
+	margin-right: 14px;
+}
+
+#blocks {
+	display: inline-block;
+	margin-right: 14px;
+	vertical-align: middle;
+}
+
+#blocks_button {
+	border: none;
+	background-color: #FFF;
+	opacity: .6;
+}
+
+#blocks_button:hover {
+	opacity: 1;
+}
+
+#notifications {
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	margin-right: 14px;
+}
+
+#notifications:hover {
+	background: rgba(0, 0, 0, 1);
+}
+
+#user {
+	display: inline-block;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	vertical-align: middle;
+
+}
+
+/* Block may not work since the UK part has to be "on" it
+   Actually, good point, if UK is on it it can't be an image,
+   Consider using a background image on a block element? */
+#logo {
+	display: block;
+	position: relative;
+	top: 190px;
+	background-image: url("../images/logo.png");
+	background-size: 272px 92px;
+	height: 92px;
+	width: 272px;
+	margin: 0 auto;
+}
+
+#country {
+	display: inline-block;
+	position: relative;
+	font-size: 16px;
+	color: #4285f4;
+	left: 712px;
+	top: 157px;
+	opacity: 1;
+}
+
+.search_bar {
+	display: block;
+	position: relative;
+	top: 170px;
+}
+
+#bar {
+	display: block;
+	width: 500px;
+	height: 40px;
+	margin: 0 auto;
+	border: none;
+	border-radius: 2px;
+	background-color: #FFF;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#bar:hover {
+	box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#bar_input{
+	display: block;
+	width: 445px;
+	height: 36px;
+	border: none;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.buttons {
+	display: block;
+	position: relative;
+	text-align: -webkit-center;
+	top: 30px;
+}
+
+.search_button {
+	display: inline-block;
+	border: none;
+	background-color: #FFF;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #757575;
+	font-weight: bold;
+	text-align: center;
+	height: 36px;
+	width: 140px;
+	padding: 0 16px;
+}
+
+.search_button:hover {
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 1);
+}
+
+#mic {
+	height: 23px;
+	width: 17px;
+	display: block;
+	position: relative;
+	left: 850px;
+	top: 105px;
+}
+
+.footer {
+	bottom: 10px;
+	position: absolute;
+	width: 100%;
+}
+
+.footer_left {
+	display: block;
+	float: left;
+}
+
+#ad {
+	display: inline;
+	margin-left: 20px;
+}
+
+#business {
+	display: inline;
+	margin-left: 20px;
+}
+
+#about {
+	display: inline;
+	margin-left: 20px;
+}
+
+.footer_right {
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+
+#privacy {
+	display: inline;
+	margin-right: 20px;
+}
+
+#terms {
+	display: inline;
+	margin-right: 20px;
+}
+
+#settings {
+	display: inline;
+	margin-right: 20px;
+}
